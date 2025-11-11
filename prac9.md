@@ -29,15 +29,14 @@ Widget build(BuildContext context){
           ) 
         ),
         ElevatedButton(
-          onPressed: (){},
+          onPressed: () => setState(()=> name= txtcon.text),
           child: Text("Submit"),
         ),
-        Text("You have entered: "),
+        Text("You have entered: $name"),
       ],
     ),
   );
 }
 }
-
 
 ```
