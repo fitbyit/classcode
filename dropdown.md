@@ -1,3 +1,6 @@
+## Change Background Color dynamic using DropdownMenu
+
+### Code
 ```dart
 import 'package:flutter/material.dart';
 
@@ -20,7 +23,7 @@ class _MyAppState extends State<MyApp> {
         children: [
           Center(
             child: Text(
-              'Hello, Flutter!\nYou have choosen:\nR:${((color?.r ?? 0) * 255).round()} G:${((color?.g ?? 0) * 255).round()}  B:${((color?.b ?? 0) * 255).round()}',
+              'Hello, Colors!',
               style: TextStyle(
                 fontSize: 24,
                 color: Colors.white,
@@ -29,10 +32,16 @@ class _MyAppState extends State<MyApp> {
               textAlign: TextAlign.center,
             ),
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 5),
           DropdownMenu(
+            hintText: 'Select a color',
             inputDecorationTheme: const InputDecorationTheme(
               filled: true,
+              hintStyle: TextStyle(
+                fontSize: 18,
+                color: Colors.white70,
+                fontWeight: FontWeight.bold,
+              ),
               fillColor: Colors.black54,
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(12)),
@@ -40,7 +49,7 @@ class _MyAppState extends State<MyApp> {
               ),
             ),
             textStyle: const TextStyle(
-              fontSize: 20,
+              fontSize: 18,
               color: Colors.white,
               fontWeight: FontWeight.bold,
             ),
@@ -67,5 +76,8 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-
 ```
+
+## Output
+<img  height="400" alt="image" src="https://github.com/user-attachments/assets/ccf83a69-4704-4f97-9b2b-c2478b9437b3" />
+
