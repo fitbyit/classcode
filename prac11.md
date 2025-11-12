@@ -1,4 +1,7 @@
-```
+## Practical 11: Use a Row widget to arrange three buttons horizontally.
+
+### Code
+```dart
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(home: MyApp()));
@@ -39,5 +42,11 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+```
+
+## Output
+<img  height="400" alt="image" src="https://github.com/user-attachments/assets/9c5a5fdd-c144-4459-b1e3-8c9375815ef3" />
 
 ```
+
+    `
