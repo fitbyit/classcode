@@ -1,3 +1,5 @@
+## Code 
+
 ```
 import 'package:flutter/material.dart';
 
@@ -27,3 +29,7 @@ class MyApp extends StatelessWidget {
 }
 
 ```
+
+## Output:
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/4490d149-3dcd-4fc7-816c-ba4d4844b68a" />
+
