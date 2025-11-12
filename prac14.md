@@ -43,3 +43,6 @@ class _UserInputAppState extends State<UserInputApp> {
 }
 ```
 ### Output:
+
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/acd96125-9e5a-4f99-9df9-17a455f80fff" />
+
