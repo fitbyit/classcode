@@ -1,4 +1,6 @@
-## Code 
+## Practical 12: Create a Flutter app using Scaffold with an AppBar, Body, and a FloatingActionButton.
+
+### Code
 
 ```dart
 import 'package:flutter/material.dart';
